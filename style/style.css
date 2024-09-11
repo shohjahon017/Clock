@@ -54,6 +54,18 @@ body {
     gap: 10px;
   }
 }
+@media (max-width: 360px) {
+  .clock {
+    padding: 25px;
+  }
+  #Date {
+    font-size: 17px !important;
+  }
+  .clock ul {
+    font-size: 60px;
+    gap: 10px;
+  }
+}
 @media (max-width: 300px) {
   .clock {
     padding: 20px;
