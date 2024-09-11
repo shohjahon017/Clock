@@ -54,9 +54,9 @@ body {
     gap: 10px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   .clock {
-    padding: 25px;
+    padding: 20px;
   }
   #Date {
     font-size: 17px !important;
@@ -66,15 +66,27 @@ body {
     gap: 10px;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 360px) {
   .clock {
-    padding: 20px;
+    padding: 18px;
   }
   #Date {
     font-size: 16px !important;
   }
   .clock ul {
     font-size: 50px;
+    gap: 10px;
+  }
+}
+@media (max-width: 300px) {
+  .clock {
+    padding: 18px;
+  }
+  #Date {
+    font-size: 14px !important;
+  }
+  .clock ul {
+    font-size: 45px;
     flex-direction: column;
     gap: 10px;
   }
@@ -88,7 +100,7 @@ body {
     font-size: 14px !important;
   }
   .clock ul {
-    font-size: 50px;
+    font-size: 45px;
     gap: 5px;
   }
 }
