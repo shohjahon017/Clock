@@ -38,8 +38,20 @@ body {
     font-size: 18px !important;
   }
   .clock ul {
-    font-size: 70px; /* Decrease font size */
-    gap: 10px; /* Reduce gap */
+    font-size: 70px;
+    gap: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .clock {
+    padding: 25px;
+  }
+  #Date {
+    font-size: 17px !important;
+  }
+  .clock ul {
+    font-size: 60px;
+    gap: 10px;
   }
 }
 @media (max-width: 300px) {
@@ -50,13 +62,12 @@ body {
     font-size: 16px !important;
   }
   .clock ul {
-    font-size: 60px; /* Decrease font size */
-    flex-direction: column; /* Stack numbers vertically */
+    font-size: 50px;
+    flex-direction: column;
     gap: 10px;
   }
 }
 
-/* Additional styles for screens below 250px */
 @media (max-width: 250px) {
   .clock {
     padding: 15px;
@@ -65,7 +76,7 @@ body {
     font-size: 14px !important;
   }
   .clock ul {
-    font-size: 50px; /* Further decrease font size */
-    gap: 5px; /* Reduce gap */
+    font-size: 50px;
+    gap: 5px;
   }
 }
